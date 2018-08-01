@@ -1,0 +1,42 @@
+{ sender: { id: '1747084865313971' },
+  recipient: { id: '1555980727850622' },
+  timestamp: 1521913705681,
+  message: 
+   { mid: 'mid.$cAAXd1KpdQ6NoimV80ViWSAiUK4dw',
+     seq: 882712,
+     text: 'test17' } }
+Received Message: [object Object]
+value of student: 
+[ RowDataPacket {
+    StudentID: 1747084865313971,
+    PlatformID: 1,
+    SchoolID: 1,
+    Name: null,
+    ConversationSequenceID: null,
+    CanvasCalendar: null,
+    ProcrastinationPreference: null } ]
+queried conversation
+[ RowDataPacket {
+    ConversationID: 0,
+    StudentID: '1747084865313971',
+    Status: 1,
+    CreatedDatetm: 2018-03-24T17:47:59.000Z,
+    ModifiedDatetm: null } ]
+current conversation
+[ RowDataPacket {
+    ConversationID: 0,
+    StudentID: '1747084865313971',
+    Status: 1,
+    CreatedDatetm: 2018-03-24T17:47:59.000Z,
+    ModifiedDatetm: null } ]
+TypeError: this.processConversation is not a function
+    at /root/esay/interpreter.js:45:9
+    at _fulfilled (/root/esay/node_modules/q/q.js:854:54)
+    at self.promiseDispatch.done (/root/esay/node_modules/q/q.js:883:30)
+    at Promise.promise.promiseDispatch (/root/esay/node_modules/q/q.js:816:13)
+    at /root/esay/node_modules/q/q.js:624:44
+    at runSingle (/root/esay/node_modules/q/q.js:137:13)
+    at flush (/root/esay/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+1 record inserted
